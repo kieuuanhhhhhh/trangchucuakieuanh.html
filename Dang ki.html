@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <style>
+    
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Thông tin cá nhân</legend>
+                    
+                    <table>
+                        <tr>
+                            <td><label for="fullname">Họ và tên:</label></td>
+                            <td><input type="text" id="fullname" name="fullname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="dob">Ngày sinh:</label></td>
+                            <td><select name="day" id="day">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        Tháng <select name="month" id="month">
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        Năm <input type="text" name="year" id="year" required> </td>
+                        </tr>
+                        <tr>
+                            <td><label>Giới tính:</label></td>
+                            <td><input type="radio" id="male" name="gender" value="Nam">
+                                <label for="male">Nam</label>
+                                <input type="radio" id="female" name="gender" value="Nữ">
+                                <label for="female">Nữ</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Địa chỉ:</label></td>
+                            <td><textarea id="address" name="address"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Điện thoại:</label></td>
+                            <td><input type="tel" id="phone" name="phone"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Thông tin đăng nhập</legend>
+                    
+                    <table>
+                        <tr>
+                            <td><label for="username">Tên đăng nhập:</label></td>
+                            <td><input type="text" id="username" name="username" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Mật khẩu:</label></td>
+                            <td><input type="password" id="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="confirm_password">Nhập lại mật khẩu:</label></td>
+                            <td><input type="password" id="confirm_password" name="confirm_password" required></td>
+                        </tr>
+                    </table>
+                </fieldset>
+    
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Hủy">
+            </form>
+        </div>
+</body>
+</html>
